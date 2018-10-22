@@ -9,8 +9,10 @@ process.stdin.on('readable', function() {
                 process.exit();
             case 'ver':
                 console.log(process.env);
+                break;
             case 'Papayas':
                 console.log('Mangoes and papayas are very tasty :) This is my case test');
+                break;
             default:
                 process.stderr.write('Wrong instruction! \n');
                 break;
